@@ -2,7 +2,7 @@
 
 Dieses Projekt ist Teil der Abschlußprüfung als Fachinformatiker Anwendungsentwicklung.
 Es handelt sich um die Erstellung einer GUI-Anwendung, welche aufgeteilt ist in mehrere Tabs.
-Es existiert ein Haupttab, welcher die Hauptfunktionen beinhaltet und 3 Nebentabs, welche dem Haupttb zuarbeiten.
+Es existiert ein Haupttab, welcher die Hauptfunktionen beinhaltet und 3 Nebentabs, welche dem Haupttab zuarbeiten.
 
 Im Haupttab werden Produkte durch eine DropDown Methode hinzugefügt und in weiteren Spalten mit Zusatzinformationen erweitert.
 
