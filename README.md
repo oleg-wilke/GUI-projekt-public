@@ -1,4 +1,4 @@
-# GUI-projekt-public
+# GUI-Tests
 
 Dieses Projekt ist Teil der Abschlußprüfung als Fachinformatiker Anwendungsentwicklung.
 Es handelt sich um die Erstellung einer GUI-Anwendung, welche aufgeteilt ist in mehrere Tabs.
