@@ -10,3 +10,5 @@ Die Zusatzinformationen können über die Nebentabs durch Anwendung einer Admini
 
 Darüberhinaus existiert noch eine Filterfunktion, welche die Produkte nach insgesamt 4 Filterkriterien filtert. 
 Die Filter werden spaltenweise angewandt.
+
+Bei den verwendeten Daten handelt es sich aus Datenschutzgründen um fiktive Dummy-Daten.
