@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>889</width>
+    <height>606</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>GUI-Tests</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QTabWidget" name="tabTabellen">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tabTest">
+       <attribute name="title">
+        <string>Test</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_Test"/>
+      </widget>
+      <widget class="QWidget" name="tabProdukt">
+       <attribute name="title">
+        <string>Produkt</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_Produkt"/>
+      </widget>
+      <widget class="QWidget" name="tabTester">
+       <attribute name="title">
+        <string>Tester</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_Tester"/>
+      </widget>
+      <widget class="QWidget" name="tabTestarten">
+       <attribute name="title">
+        <string>Testarten</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_Testarten"/>
+      </widget>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <spacer name="verticalSpacer_2">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>40</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pbEqual">
+        <property name="text">
+         <string>Filter =</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pbUnequal">
+        <property name="text">
+         <string>Filter !=</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pbLess">
+        <property name="text">
+         <string>Filter &lt;=</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pbMore">
+        <property name="text">
+         <string>Filter &gt;=</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pbCancel">
+        <property name="text">
+         <string>Filter auflösen</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="verticalSpacer">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>88</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_Schliessen">
+        <property name="text">
+         <string>Schliessen</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>889</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <tabstops>
+  <tabstop>tabTabellen</tabstop>
+  <tabstop>pbEqual</tabstop>
+  <tabstop>pbUnequal</tabstop>
+  <tabstop>pbLess</tabstop>
+  <tabstop>pbMore</tabstop>
+  <tabstop>pbCancel</tabstop>
+  <tabstop>pushButton_Schliessen</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
